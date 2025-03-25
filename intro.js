@@ -36,7 +36,7 @@
 
 let getage= new Promise((resolve,reject)=>{
     let age=55
-    if(age<19){
+    if(age<45){
         resolve(true)
     }else {
         reject(false)
